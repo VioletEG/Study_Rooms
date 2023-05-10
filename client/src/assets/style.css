@@ -1,0 +1,110 @@
+
+.ivu-btn-primary {
+    color: #fff;
+    background-color: #009999;
+    border-color: #009999;
+}
+.ivu-btn-primary:hover {
+    color: #fff;
+    background-color: #009999;
+    border-color: #009999;
+}
+.ivu-menu-light.ivu-menu-vertical .ivu-menu-item-active:not(.ivu-menu-submenu) {
+    color: #009999;
+    background: #f0faff;
+    z-index: 2;
+}
+.ivu-menu-vertical .ivu-menu-item:hover, .ivu-menu-vertical .ivu-menu-submenu-title:hover {
+    color: #009999;
+}
+.ivu-dropdown-rel a{
+	color: #009999;
+}
+
+* {
+	padding: 0;
+	margin: 0;
+	font-family: "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", Arial, sans-serif;
+}
+
+.ivu-card{
+	margin-bottom: 15px;
+}
+
+
+body {
+	background-color: #EEEEEE;
+}
+
+.fater-header {
+	margin-left: 200px;
+	cursor: pointer;
+	background-color: #fff;
+}
+.fater-header-nav{
+	float: left;
+}
+.fater-header-user {
+	float: right;
+	background-color: #fff;
+    margin-right: -35px;
+}
+.fater-header-logo {
+	height: 64px;
+	width: 200px;
+	text-align: center;
+	line-height: 64px;
+	font-size: 20px;
+	font-weight: bold;
+	color: #009999;
+	background-color: #FFFFFF;
+	border-right: 1px solid #EEEEEE;
+}
+
+.fater-layout-left {
+	position: fixed;
+	top: 0px;
+	left: 0;
+	bottom: 0;
+	/* width: 200px;
+	overflow: hidden; */
+	background-color: #FFFFFF;
+}
+
+.fater-layout-body {
+	position: absolute;
+	left: 200px;
+	right: 0;
+	top: 64px;
+	bottom: 0;
+	background-color: #F2F2F2;
+	padding: 15px;
+}
+
+.fater-seats tr td{
+	border-right: 1px solid #fff;
+	border-bottom: 1px solid #fff;
+	cursor: pointer;
+}
+.fater-seats tr td span{
+	width: 50px;
+	height: 50px;
+	display: block;
+}
+
+.fater-calendar-panel{
+	background: #fff;
+	padding: 10px;
+}
+
+.fater-sysinfo-panle table{
+	width: 100%;
+	border-left: 1px solid #eee;
+	border-top: 1px solid #eee;
+}
+.fater-sysinfo-panle table td{
+	height: 40px;
+	padding-left: 10px;
+	border-right: 1px solid #eee;
+	border-bottom: 1px solid #eee;
+}

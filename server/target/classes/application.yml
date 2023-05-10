@@ -1,0 +1,26 @@
+server:
+  port: 9999
+  servlet:
+    context-path: /studyrooms/api
+    encoding:
+      charset: UTF-8
+      force: true
+spring:
+  mvc:
+    static-path-pattern: /**
+  devtools:
+    restart:
+      enabled: true  #设置开启热部署
+      additional-paths: src/main/java #重启目录
+  datasource:
+    username: root
+    password: Csw2127022
+    url: jdbc:mysql://localhost:3306/self_study_rooms?serverTimezone=UTC
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    type: com.alibaba.druid.pool.DruidDataSource
+    initialSize: 5
+    minIdle: 5
+    maxWait: 60000
+mybatis-plus:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
