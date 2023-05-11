@@ -4,7 +4,7 @@ import qs from 'qs'
 import { Notice } from "view-ui-plus";
 
 const service = axios.create({
-	baseURL: 'http://localhost:9999/studyrooms/api',
+	baseURL: 'http://http://124.221.74.32:9999/studyrooms/api',
 	timeout: 15000 
 })
 

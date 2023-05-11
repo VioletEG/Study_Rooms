@@ -15,7 +15,7 @@ spring:
   datasource:
     username: root
     password: Csw2127022
-    url: jdbc:mysql://localhost:3306/self_study_rooms?serverTimezone=UTC
+    url: jdbc:mysql:// rm-cn-uax37niwg0007kro.rwlb.rds.aliyuncs.com:3306/self_study_rooms
     driver-class-name: com.mysql.cj.jdbc.Driver
     type: com.alibaba.druid.pool.DruidDataSource
     initialSize: 5
